@@ -7,7 +7,7 @@ int main() {
 
   std::cin >> x >> y;
   float R = std::pow(x + y, 3 * std::sin(x));
-  float S = std::sqrt(std::abs(x)) / std::log(M_E);
+  float S = std::sqrt(std::abs(x)) / std::log(y);
 
   std::cout << "R = " << R << std::endl;
   std::cout << "S = " << S << std::endl;
