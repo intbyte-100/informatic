@@ -1,0 +1,12 @@
+build
+out
+.cache
+.idea
+.vs
+.vscode
+.zed
+.clangd
+adwaita.ttf
+winbuild
+.cache
+.github
