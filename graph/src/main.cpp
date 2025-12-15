@@ -90,9 +90,9 @@ int main() {
           std::string zone;
 
           bool isAboveABS = mathY > std::abs(mathX);
-          bool isAboveLine = mathY > 2.5f;
+          bool isAboveLine = mathY > 3;
 
-          if (mathY == std::abs(mathX) || mathY == 2.5) {
+          if (mathY == std::abs(mathX) || mathY == 3) {
             zone = "The point is on the function plot";
           } else if (isAboveLine && isAboveABS) {
             zone = "2";
